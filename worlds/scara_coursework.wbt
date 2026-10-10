@@ -24,7 +24,6 @@ Robot {
 }
 DEF ARM ScaraT6 {
   controller "scara_task1_controller"
-  controllerArgs [ "--poses" "inputs/course_demo_poses.csv" ]
   supervisor TRUE
   staticBase TRUE
   handSlot [
